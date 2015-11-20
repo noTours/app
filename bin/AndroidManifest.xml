@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="free.notours.org"
+    android:versionCode="21"
+    android:versionName="2.1.4" >
+
+    <!-- Copied from Google Maps Library/AndroidManifest.xml. -->
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- External storage for caching. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Maps API needs OpenGL ES 2.0. -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!-- End of copy. -->
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="noTours" >
+
+        <!--
+         ** You need to replace the key below with your own key. **
+         The example key below will not be accepted because it is not linked to the
+         certificate which you will use to sign this application.
+         See: https://developers.google.com/maps/documentation/android/start
+         for instructions on how to get your own key.
+        -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBID2U177oOZ3djwDerVnbe_Qd9IV0qHV8" />     <!-- debug:AIzaSyAUdUdTXizw5hPRVlFz39lAjbgWsdUVzb4   "AIzaSyC12nPkrPftNYJbXTgk4ucUep8Et1i5xgY"   AIzaSyC12nPkrPftNYJbXTgk4ucUep8Et1i5xgY AIzaSyDC-gfaPEPcHyn49jSAfxlpSe42C0E3V1g "AIzaSyDC-gfaPEPcHyn49jSAfxlpSe42C0E3V1g"   AIzaSyDlTTJWLDK7XEYf-We4l1-rfQfLj6JtUdc "AIzaSyA7z4sVx0Tb8OCfW53XaRNcqq8izdf4k6g" "AIzaSyDD7YTmj1cC57m4ZVCxGtH9xOLOvVc1JEs"/> -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="free.notours.org.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="free.notours.org.noToursMap"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/my_location_demo"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.mapdemo.escoitar.noToursMap" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="free.notours.org.Menu"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/menu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.mapdemo.escoitar.Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="free.notours.org.MenuContinent"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/menu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.mapdemo.escoitar.MenuContinent" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="free.notours.org.Projects"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/projects"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.mapdemo.escoitar.Projects" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="freeHttp.notours.org.MenuContinent"
+            android:label="@string/title_activity_menu_continent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="freeHttp.notours.org.Credits"
+            android:label="@string/title_activity_credits" >
+            <intent-filter>
+                <action android:name="freeHttp.notours.org.Credits" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="freeHttp.notours.org.Informations"
+            android:label="@string/title_activity_informations" >
+            <intent-filter>
+                <action android:name="freeHttp.notours.org.Informations" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="freeHttp.notours.org.Download"
+            android:label="@string/title_activity_download" >
+        </activity>
+        <activity
+            android:name="freeHttp.notours.org.Telecharger"
+            android:label="@string/title_activity_telecharger" >
+        </activity>
+    </application>
+
+</manifest>

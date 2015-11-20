@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:notours="http://www.escoitar.org/notours">
+	<channel>
+		<title></title>
+		<link>http://www.vhplab.net/editor/projects/327/</link>
+		<description></description>
+		<language>es</language>
+		<georss:relationshiptag>is-centered-at</georss:relationshiptag>
+		<georss:point>48.2883468 14.2993804</georss:point>
+		<notours:sticky>1</notours:sticky>
+		<item>
+			<guid isPermaLink="false">1184</guid>
+			<title>cuatro</title>
+			<description></description>
+			<enclosure url="http://www.vhplab.net/editor/projects/327/sound/cuatro.mp3" length="0" type="audio/mpeg" />
+			<pubDate>2012-02-14 17:13:14</pubDate>
+			<georss:circle>48.287832805505 14.29908004841 36.558195360213</georss:circle>
+			<notours:soundpoint>
+				<notours:attributes>stopout loop</notours:attributes>
+				<notours:level>0</notours:level>
+				<notours:milestone>0</notours:milestone>
+				<notours:soundsource>
+					<notours:file>/sound/cuatro.mp3</notours:file>
+					<notours:volume>100</notours:volume>
+				</notours:soundsource>
+			</notours:soundpoint>
+		</item>
+		<item>
+			<guid isPermaLink="false">1181</guid>
+			<title>1</title>
+			<description></description>
+			<enclosure url="http://www.vhplab.net/editor/projects/327/sound/uno.mp3" length="0" type="audio/mpeg" />
+			<pubDate>2012-02-14 17:09:51</pubDate>
+			<georss:circle>48.288510991596 14.299240980951 41.208928737044</georss:circle>
+			<notours:soundpoint>
+				<notours:attributes>stopout loop</notours:attributes>
+				<notours:level>0</notours:level>
+				<notours:milestone>0</notours:milestone>
+				<notours:soundsource>
+					<notours:file>/sound/uno.mp3</notours:file>
+					<notours:volume>100</notours:volume>
+				</notours:soundsource>
+			</notours:soundpoint>
+		</item>
+		<item>
+			<guid isPermaLink="false">1182</guid>
+			<title>overlap</title>
+			<description></description>
+			<enclosure url="http://www.vhplab.net/editor/projects/327/sound/dos.mp3" length="0" type="audio/mpeg" />
+			<pubDate>2012-02-14 17:10:23</pubDate>
+			<georss:circle>48.288718015029 14.299798880426 35.701163587415</georss:circle>
+			<notours:soundpoint>
+				<notours:attributes>stopout loop</notours:attributes>
+				<notours:level>0</notours:level>
+				<notours:milestone>0</notours:milestone>
+				<notours:soundsource>
+					<notours:file>/sound/dos.mp3</notours:file>
+					<notours:volume>100</notours:volume>
+				</notours:soundsource>
+			</notours:soundpoint>
+		</item>
+		<item>
+			<guid isPermaLink="false">1183</guid>
+			<title>speaker</title>
+			<description></description>
+			<enclosure url="http://www.vhplab.net/editor/projects/327/sound/tres.mp3" length="0" type="audio/mpeg" />
+			<pubDate>2012-02-14 17:11:04</pubDate>
+			<georss:circle>48.288946453706 14.298801098672 34.972168998256</georss:circle>
+			<notours:soundpoint>
+				<notours:attributes>stopout loop speaker</notours:attributes>
+				<notours:level>0</notours:level>
+				<notours:milestone>0</notours:milestone>
+				<notours:soundsource>
+					<notours:file>/sound/tres.mp3</notours:file>
+					<notours:volume>100</notours:volume>
+				</notours:soundsource>
+			</notours:soundpoint>
+		</item>
+	</channel>
+</rss>
